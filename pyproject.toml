@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sustainable-product-search-chatgpt-plugin"
+version = "0.1.0"
+description = "A plugin for chatgpt that accesses an OpenSearch instance which indexes green products"
+authors = ["jessica0greene <jessica0greene@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+quart = "^0.18.4"
+quart-cors = "^0.6.0"
+opensearch-py = "^2.2.0"
+pandas = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

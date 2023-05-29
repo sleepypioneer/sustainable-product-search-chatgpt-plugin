@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "sustainable_products_search",
+  "name_for_model": "sustainable_products_search",
+  "description_for_human": "Returns products ranked by their sustainability score",
+  "description_for_model": "Passes the user query and passes it to the green product search engine which returns sustainable products",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:5003/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:5003/logo.png",
+  "contact_email": "legal@example.com",
+  "legal_info_url": "http://example.com/legal"
+}
