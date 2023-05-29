@@ -25,7 +25,7 @@ make index-products
 To run the plugin, enter the following command:
 
 ```bash
-make run
+make run-plugin-server
 ```
 
 Once the local server is running:
